@@ -61,11 +61,11 @@ function App() {
     <Container className={classes.root}>
       <h1>Add New Question</h1>
       <form className={classes.root} onSubmit={handleSubmit}>
-     
+      <div><TextField></TextField></div>
         { inputFields.map((inputField, index) => (
             
           <div key={index}>
-              {/* <div><TextField></TextField></div> */}
+        
             <TextField 
               name="option"
               label="option"
